@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monash Uni WAM Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Monash University WAM Calculator</h1>
+    <table id="wamTable">
+        <thead>
+            <tr>
+                <th>Unit</th>
+                <th>Year level</th>
+                <th>Year level weighting</th>
+                <th>Unit mark</th>
+                <th>Grade</th>
+                <th>Unit credit points</th>
+                <th>Weighted mark</th>
+                <th>Weighted credit points</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Rows will be added dynamically -->
+        </tbody>
+    </table>
+    <div class="buttons">
+        <button onclick="addRow()">Add Unit</button>
+        <button onclick="calculateWAM()">Calculate WAM</button>
+        <button onclick="clearTable()">Clear Table</button>
+    </div>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

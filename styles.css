@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+input[type="number"][placeholder="Unit mark"] {
+    transition: background-color 0.3s;
+}
+
+input[type="number"][placeholder="Unit mark"].red {
+    background-color: red;
+    color: white;
+}
+
+input[type="number"][placeholder="Unit mark"].light-red {
+    background-color: lightcoral;
+    color: white;
+}
+
+input[type="number"][placeholder="Unit mark"].yellow {
+    background-color: yellow;
+    color: black;
+}
+
+input[type="number"][placeholder="Unit mark"].light-green {
+    background-color: lightgreen;
+    color: black;
+}
+
+input[type="number"][placeholder="Unit mark"].green {
+    background-color: green;
+    color: white;
+}
+
+input[type="number"][placeholder="Unit mark"].dark-green {
+    background-color: darkgreen;
+    color: white;
+}
+
+.buttons {
+    margin-top: 20px;
+}
